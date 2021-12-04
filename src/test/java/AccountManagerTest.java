@@ -33,11 +33,20 @@ public class AccountManagerTest {
     }
 
     @Test
+    public void should_not_store_deposit_transaction_when_amount_invalid(){
+        account.deposit(0);
+        verify(transactionRepository, never()).addDeposit(0);
+    }
+    @Test
     public void should_store_withdraw_transaction() {
         account.withdrawal(100);
         verify(transactionRepository).addWithdrawal(100);
     }
-
+    @Test
+    public void should_not_store_withdraw_transaction_when_amount_invalid(){
+        account.withdrawal(0);
+        verify(transactionRepository, never()).addWithdrawal(0);
+    }
     @Test
     public void print_a_statement() {
         List<Transaction> transactions = Arrays.asList(new Transaction("03/12/2021", 100));

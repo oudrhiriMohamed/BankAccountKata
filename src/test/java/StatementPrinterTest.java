@@ -39,17 +39,17 @@ public class StatementPrinterTest {
     public void should_print_statements_in_reverse_chronological_order() {
 
         List<Transaction> transactions = Arrays.asList(
-                deposit("10/10/2020", 1000),
-                withdrawal("15/10/2020", 100),
-                deposit("20/10/2020", 500)
+                deposit("10/10/2021", 1000),
+                withdrawal("15/11/2021", 300),
+                deposit("03/12/2021", 400)
         );
         statementPrinter.print(transactions);
 
         InOrder inOrder = inOrder(console);
         inOrder.verify(console).printLine("OPERATION | DATE | AMOUNT | BALANCE");
-        inOrder.verify(console).printLine("DEPOSIT | 20/10/2020 | 500 | 1400");
-        inOrder.verify(console).printLine("WITHDRAW | 15/10/2020 | -100 | 900");
-        inOrder.verify(console).printLine("DEPOSIT | 10/10/2020 | 1000 | 1000");
+        inOrder.verify(console).printLine("DEPOSIT | 03/12/2021 | 400 | 1100");
+        inOrder.verify(console).printLine("WITHDRAW | 15/11/2021 | -300 | 700");
+        inOrder.verify(console).printLine("DEPOSIT | 10/10/2021 | 1000 | 1000");
     }
 
 

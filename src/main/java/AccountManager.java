@@ -10,11 +10,15 @@ public class AccountManager {
     }
 
     public void deposit(int amount) {
-        transactionRepository.addDeposit(amount);
+        if (amount != 0) {
+            transactionRepository.addDeposit(amount);
+        }
     }
 
     public void withdrawal(int amount) {
-        transactionRepository.addWithdrawal(amount);
+        if (amount != 0) {
+            transactionRepository.addWithdrawal(amount);
+        }
     }
 
     public void printStatement() {
