@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f7c04cdf-07e4-4b96-abef-5e267576d707" name="Default" comment="bank kata with tests">
+    <list default="true" id="f7c04cdf-07e4-4b96-abef-5e267576d707" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../BankAccountKata/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../BankAccountKata/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../BankAccountKata/src/main/java/AccountManager.java" afterPath="$PROJECT_DIR$/../BankAccountKata/src/main/java/AccountManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../BankAccountKata/src/main/java/BankKataApp.java" afterPath="$PROJECT_DIR$/../BankAccountKata/src/main/java/BankKataApp.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../BankAccountKata/src/main/java/StatementPrinter.java" afterPath="$PROJECT_DIR$/../BankAccountKata/src/main/java/StatementPrinter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../BankAccountKata/src/test/java/AccountManagerTest.java" afterPath="$PROJECT_DIR$/../BankAccountKata/src/test/java/AccountManagerTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../BankAccountKata/src/main/java/Transaction.java" afterPath="$PROJECT_DIR$/../BankAccountKata/src/main/java/Transaction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../BankAccountKata/src/main/java/TransactionRepository.java" afterPath="$PROJECT_DIR$/../BankAccountKata/src/main/java/TransactionRepository.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../BankAccountKata/src/test/java/StatementPrinterTest.java" afterPath="$PROJECT_DIR$/../BankAccountKata/src/test/java/StatementPrinterTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/../BankAccountKata/out/" />
@@ -22,21 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../BankAccountKata/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="14" column="31" lean-forward="true" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BankKataApp.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BankKataApp.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../BankAccountKata/src/main/java/BankKataApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="346">
-              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <state relative-caret-position="210">
+              <caret line="7" column="27" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -45,11 +37,10 @@
       <file leaf-file-name="AccountManagerTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../BankAccountKata/src/test/java/AccountManagerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="35" column="4" lean-forward="false" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="4" />
+            <state relative-caret-position="1710">
+              <caret line="59" column="0" lean-forward="true" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#542#543#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -58,8 +49,8 @@
       <file leaf-file-name="AccountManager.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../BankAccountKata/src/main/java/AccountManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="12" column="26" lean-forward="true" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+            <state relative-caret-position="90">
+              <caret line="3" column="56" lean-forward="true" selection-start-line="3" selection-start-column="56" selection-end-line="3" selection-end-column="56" />
               <folding />
             </state>
           </provider>
@@ -68,8 +59,8 @@
       <file leaf-file-name="StatementPrinter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../BankAccountKata/src/main/java/StatementPrinter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <state relative-caret-position="120">
+              <caret line="4" column="35" lean-forward="true" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -77,28 +68,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Console.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../BankAccountKata/src/main/java/Console.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="2" column="16" lean-forward="false" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-              <folding>
-                <element signature="e#63#64#0" expanded="true" />
-                <element signature="e#103#104#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TransactionRepository.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TransactionRepository.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../BankAccountKata/src/main/java/TransactionRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-              <folding>
-                <element signature="e#903#904#0" expanded="true" />
-                <element signature="e#956#957#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="475">
+              <caret line="31" column="1" lean-forward="true" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -106,8 +81,8 @@
       <file leaf-file-name="Transaction.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../BankAccountKata/src/main/java/Transaction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-74">
-              <caret line="7" column="35" lean-forward="true" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+            <state relative-caret-position="5">
+              <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -118,8 +93,8 @@
       <file leaf-file-name="TransactionRepositoryTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../BankAccountKata/src/test/java/TransactionRepositoryTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
-              <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+            <state relative-caret-position="123">
+              <caret line="20" column="16" lean-forward="true" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -130,8 +105,8 @@
       <file leaf-file-name="StatementPrinterTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../BankAccountKata/src/test/java/StatementPrinterTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="45" column="45" lean-forward="true" selection-start-line="45" selection-start-column="45" selection-end-line="45" selection-end-column="45" />
+            <state relative-caret-position="465">
+              <caret line="48" column="59" lean-forward="false" selection-start-line="48" selection-start-column="59" selection-end-line="48" selection-end-column="59" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -178,14 +153,14 @@
         <option value="$PROJECT_DIR$/../BankAccountKata/src/main/java/Console.java" />
         <option value="$PROJECT_DIR$/../BankAccountKata/src/test/java/StatementPrintingTest.java" />
         <option value="$PROJECT_DIR$/../BankAccountKata/src/main/java/utils/TypeOfOperation.java" />
-        <option value="$PROJECT_DIR$/../BankAccountKata/src/main/java/TransactionRepository.java" />
-        <option value="$PROJECT_DIR$/../BankAccountKata/src/main/java/Transaction.java" />
         <option value="$PROJECT_DIR$/../BankAccountKata/src/test/java/TransactionRepositoryTest.java" />
-        <option value="$PROJECT_DIR$/../BankAccountKata/src/main/java/BankKataApp.java" />
         <option value="$PROJECT_DIR$/../BankAccountKata/src/test/java/AccountManagerTest.java" />
+        <option value="$PROJECT_DIR$/../BankAccountKata/src/main/java/Transaction.java" />
+        <option value="$PROJECT_DIR$/../BankAccountKata/src/main/java/TransactionRepository.java" />
         <option value="$PROJECT_DIR$/../BankAccountKata/src/main/java/AccountManager.java" />
         <option value="$PROJECT_DIR$/../BankAccountKata/src/test/java/StatementPrinterTest.java" />
         <option value="$PROJECT_DIR$/../BankAccountKata/src/main/java/StatementPrinter.java" />
+        <option value="$PROJECT_DIR$/../BankAccountKata/src/main/java/BankKataApp.java" />
       </list>
     </option>
   </component>
@@ -229,8 +204,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -260,6 +233,14 @@
               <item name="BankAccountKata" type="b2602c69:ProjectViewProjectNode" />
               <item name="BankAccountKata" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BankAccountKata" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BankAccountKata" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -274,6 +255,8 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -307,7 +290,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BankKataApp">
+  <component name="RunManager" selected="JUnit.All in BankAccountKata">
     <configuration name="AccountManagerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="BankAccountKata" />
@@ -491,11 +474,11 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.BankKataApp" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.All in BankAccountKata" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.StatementPrinterTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.TransactionRepositoryTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.AccountManagerTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.All in BankAccountKata" />
+        <item index="1" class="java.lang.String" itemvalue="Application.BankKataApp" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.TransactionRepositoryTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.AccountManagerTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.StatementPrinterTest" />
       </list>
     </recent_temporary>
   </component>
@@ -513,7 +496,8 @@
       <option name="presentableId" value="Default" />
       <updated>1638379491070</updated>
       <workItem from="1638379493857" duration="5861000" />
-      <workItem from="1638474907838" duration="24627000" />
+      <workItem from="1638474907838" duration="24868000" />
+      <workItem from="1638733845998" duration="3035000" />
     </task>
     <task id="LOCAL-00001" summary="README commit">
       <created>1638381026828</created>
@@ -529,26 +513,24 @@
       <option name="project" value="LOCAL" />
       <updated>1638638765194</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="fix(bank kata) add tests for AccountManger">
+      <created>1638645477393</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1638645477393</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AccountManagerTest - 2021.12.04 at 18h 53m 52s.xml">
+    <history-entry file="AccountManagerTest - 2021.12.05 at 21h 42m 37s.xml">
       <configuration name="AccountManagerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AccountManagerTest - 2021.12.04 at 18h 54m 07s.xml">
-      <configuration name="AccountManagerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AccountManagerTest - 2021.12.04 at 18h 54m 43s.xml">
-      <configuration name="AccountManagerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AccountManagerTest - 2021.12.04 at 19h 05m 18s.xml">
-      <configuration name="AccountManagerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_BankAccountKata - 2021.12.04 at 19h 17m 57s.xml">
-      <configuration name="All in BankAccountKata" configurationId="JUnit" />
     </history-entry>
     <history-entry file="All_in_BankAccountKata - 2021.12.04 at 20h 16m 28s.xml">
+      <configuration name="All in BankAccountKata" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_BankAccountKata - 2021.12.05 at 21h 53m 20s.xml">
       <configuration name="All in BankAccountKata" configurationId="JUnit" />
     </history-entry>
     <history-entry file="StatementPrinterTest - 2021.12.04 at 19h 03m 35s.xml">
@@ -560,12 +542,21 @@
     <history-entry file="StatementPrinterTest - 2021.12.04 at 19h 17m 49s.xml">
       <configuration name="StatementPrinterTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="StatementPrinterTest - 2021.12.05 at 21h 42m 23s.xml">
+      <configuration name="StatementPrinterTest" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="TransactionRepositoryTest - 2021.12.04 at 19h 05m 23s.xml">
+      <configuration name="TransactionRepositoryTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TransactionRepositoryTest - 2021.12.05 at 21h 42m 41s.xml">
+      <configuration name="TransactionRepositoryTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TransactionRepositoryTest - 2021.12.05 at 21h 43m 45s.xml">
       <configuration name="TransactionRepositoryTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30488000" />
+    <option name="totallyTimeSpent" value="33764000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -582,22 +573,20 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32958803" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0037453184" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0037453184" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.051891893" sideWeight="0.49390244" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32958803" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17977528" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.051891893" sideWeight="0.50609756" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.036204744" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5730337" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27567568" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28054053" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -609,6 +598,8 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.051891893" sideWeight="0.50609756" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -620,7 +611,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="README commit" />
     <MESSAGE value="bank kata with tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="bank kata with tests" />
+    <MESSAGE value="fix(bank kata) add tests for AccountManger" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix(bank kata) add tests for AccountManger" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -629,20 +621,106 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../BankAccountKata/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="14" column="31" lean-forward="true" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../BankAccountKata/src/test/java/AccountManagerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="35" column="4" lean-forward="false" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../BankAccountKata/src/main/java/AccountManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="12" column="26" lean-forward="true" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../BankAccountKata/src/main/java/StatementPrinter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../BankAccountKata/src/main/java/Console.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="2" column="16" lean-forward="false" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+          <folding>
+            <element signature="e#63#64#0" expanded="true" />
+            <element signature="e#103#104#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../BankAccountKata/src/main/java/TransactionRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../BankAccountKata/src/main/java/Transaction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="7" column="35" lean-forward="true" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../BankAccountKata/src/test/java/TransactionRepositoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../BankAccountKata/src/test/java/StatementPrinterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="960">
+          <caret line="45" column="45" lean-forward="true" selection-start-line="45" selection-start-column="45" selection-end-line="45" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../BankAccountKata/src/main/java/BankKataApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="7" column="34" lean-forward="true" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../BankAccountKata/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
           <caret line="15" column="21" lean-forward="false" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../BankAccountKata/src/test/java/StatementPrintingTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../BankAccountKata/src/test/java/StatementPrintingTest.java" />
     <entry file="file://$PROJECT_DIR$/../BankAccountKata/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -672,22 +750,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../BankAccountKata/src/test/java/Transaction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="8" column="24" lean-forward="false" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../BankAccountKata/src/test/java/Transaction.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/mockito/mockito-all/1.10.19/mockito-all-1.10.19.jar!/org/mockito/Mockito.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
           <caret line="82" column="24" lean-forward="false" selection-start-line="82" selection-start-column="24" selection-end-line="82" selection-end-column="24" />
-          <folding>
-            <element signature="e#3234#3235#0" expanded="true" />
-            <element signature="e#3292#3293#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -695,7 +762,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
           <caret line="10" column="10" lean-forward="false" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -703,7 +769,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -711,28 +776,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="197">
           <caret line="48" column="6" lean-forward="false" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../BankAccountKata/src/test/java/StatementPrintingTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="32" column="57" lean-forward="true" selection-start-line="32" selection-start-column="57" selection-end-line="32" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../BankAccountKata/src/main/java/utils/Clock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="11" column="35" lean-forward="false" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../BankAccountKata/src/test/java/StatementPrintingTest.java" />
     <entry file="file://$PROJECT_DIR$/../BankAccountKata/src/main/java/utils/TypeOfOperation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -754,39 +801,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../BankAccountKata/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="14" column="31" lean-forward="true" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+        <state relative-caret-position="0">
+          <caret line="14" column="31" lean-forward="false" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../BankAccountKata/src/test/java/StatementPrinterTest.java">
+    <entry file="file://$PROJECT_DIR$/../BankAccountKata/src/main/java/utils/Clock.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="45" column="45" lean-forward="true" selection-start-line="45" selection-start-column="45" selection-end-line="45" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../BankAccountKata/src/test/java/TransactionRepositoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../BankAccountKata/src/main/java/StatementPrinter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="300">
+          <caret line="11" column="35" lean-forward="false" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -801,50 +826,84 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../BankAccountKata/src/main/java/AccountManager.java">
+    <entry file="file://$PROJECT_DIR$/../BankAccountKata/src/test/java/TransactionRepositoryTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="12" column="26" lean-forward="true" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
-          <folding />
+        <state relative-caret-position="123">
+          <caret line="20" column="16" lean-forward="true" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../BankAccountKata/src/main/java/TransactionRepository.java">
+    <entry file="file://$PROJECT_DIR$/../BankAccountKata/src/test/java/StatementPrinterTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        <state relative-caret-position="465">
+          <caret line="48" column="59" lean-forward="false" selection-start-line="48" selection-start-column="59" selection-end-line="48" selection-end-column="59" />
           <folding>
-            <element signature="e#903#904#0" expanded="true" />
-            <element signature="e#956#957#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../BankAccountKata/src/main/java/Transaction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-74">
-          <caret line="7" column="35" lean-forward="true" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+        <state relative-caret-position="5">
+          <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../BankAccountKata/src/test/java/AccountManagerTest.java">
+    <entry file="jar://$PROJECT_DIR$/../Program Files/Java/jdk1.8.0_221/src.zip!/java/math/BigDecimal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="35" column="4" lean-forward="false" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="4" />
+        <state relative-caret-position="82">
+          <caret line="4178" column="0" lean-forward="false" selection-start-line="4178" selection-start-column="0" selection-end-line="4178" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../BankAccountKata/src/main/java/StatementPrinter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="4" column="35" lean-forward="true" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#542#543#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../BankAccountKata/src/main/java/AccountManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="3" column="56" lean-forward="true" selection-start-line="3" selection-start-column="56" selection-end-line="3" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../BankAccountKata/src/test/java/AccountManagerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1710">
+          <caret line="59" column="0" lean-forward="true" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../BankAccountKata/src/main/java/BankKataApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        <state relative-caret-position="210">
+          <caret line="7" column="27" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../BankAccountKata/src/main/java/TransactionRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="31" column="1" lean-forward="true" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
           <folding />
         </state>
       </provider>

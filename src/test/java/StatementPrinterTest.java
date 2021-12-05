@@ -47,9 +47,9 @@ public class StatementPrinterTest {
 
         InOrder inOrder = inOrder(console);
         inOrder.verify(console).printLine("OPERATION | DATE | AMOUNT | BALANCE");
-        inOrder.verify(console).printLine("DEPOSIT | 03/12/2021 | 400 | 1100");
-        inOrder.verify(console).printLine("WITHDRAW | 15/11/2021 | -300 | 700");
-        inOrder.verify(console).printLine("DEPOSIT | 10/10/2021 | 1000 | 1000");
+        inOrder.verify(console).printLine("DEPOSIT | 03/12/2021 | 400.00 | 1100.00");
+        inOrder.verify(console).printLine("WITHDRAW | 15/11/2021 | -300.00 | 700.00");
+        inOrder.verify(console).printLine("DEPOSIT | 10/10/2021 | 1000.00 | 1000.00");
     }
 
 

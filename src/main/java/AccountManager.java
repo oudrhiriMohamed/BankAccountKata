@@ -9,13 +9,13 @@ public class AccountManager {
         this.statementPrinter = statementPrinter;
     }
 
-    public void deposit(int amount) {
+    public void deposit(double amount) {
         if (amount != 0) {
             transactionRepository.addDeposit(amount);
         }
     }
 
-    public void withdrawal(int amount) {
+    public void withdrawal(double amount) {
         if (amount != 0) {
             transactionRepository.addWithdrawal(amount);
         }

@@ -13,9 +13,11 @@ public class BankKataApp {
 
 
 
-        account.deposit(1000);
+        account.deposit(1000.50);
         account.withdrawal(400);
         account.deposit(2000);
+        account.deposit(0.0);
         account.printStatement();
+
     }
 }

@@ -16,12 +16,12 @@ public class TransactionRepository {
         this.clock = clock;
     }
 
-    public void addDeposit(int amount) {
+    public void addDeposit(double amount) {
         Transaction depositTransaction = new Transaction(String.valueOf(TypeOfOperation.DEPOSIT), clock.toDayDateAsStringFormat(), amount);
         transactions.add(depositTransaction);
     }
 
-    public void addWithdrawal(int amount) {
+    public void addWithdrawal(double amount) {
         Transaction withdrawTransaction = new Transaction(String.valueOf(TypeOfOperation.WITHDRAW), clock.toDayDateAsStringFormat(), -amount);
         transactions.add(withdrawTransaction);
     }
